@@ -2,7 +2,7 @@
 
 :root {
 
-    --color-primary: #B8860B;
+    --color-primary: #c76f0bce;
 }
 
 html, body {
@@ -16,6 +16,7 @@ font-family: "Ubuntu", sans-serif;
     display: flex;
     flex-direction: column;
     height: 100%;
+   
 }
 
 .content {
