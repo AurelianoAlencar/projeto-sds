@@ -8,7 +8,7 @@ const NavBar = () => {
 
                     <Link to={"/"}>
 
-                    <img src={ImgDsDark} alt="DevSuperior" width="115" />
+                        <img src={ImgDsDark} alt="DevSuperior" width="115" />
                     </Link>
 
                 </nav>
