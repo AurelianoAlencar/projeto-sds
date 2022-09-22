@@ -6,11 +6,10 @@ import NavBar from "components/NavBar";
 
 const Dashboard = () => {
 
-return (
+  return (
 
-<>
+    <>
       <NavBar />
-
       <div className="container">
         <h1 className="text-primary py-3 ">Dashboard Vendas</h1>
 
@@ -19,12 +18,13 @@ return (
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Taxa de Sucesso (%)</h5>
             <BarChart />
+            <hr />
 
           </div>
 
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Taxa de Sucesso (%)</h5>
-            <DonutChart/>
+            <DonutChart />
 
           </div>
         </div>
@@ -41,6 +41,7 @@ return (
 
     </>
 
-)}
+  )
+}
 
 export default Dashboard;
