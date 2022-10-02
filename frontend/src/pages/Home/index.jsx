@@ -1,6 +1,7 @@
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                         Acessar dashboard
 
                     </Link>
+
 
                 </div>
 
