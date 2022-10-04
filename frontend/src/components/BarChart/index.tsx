@@ -119,6 +119,10 @@ return (
 
 );
 
+
+
+
+
 }
 
 export default BarChart;
